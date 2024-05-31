@@ -7,6 +7,8 @@
 	import Step3 from './routes/Step3.svelte';
 	import * as com from './com.js';
 	
+
+	
 </script>
 
 

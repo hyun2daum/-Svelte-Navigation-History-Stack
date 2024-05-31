@@ -46,7 +46,6 @@ export function initPage(page_path, opt) {
         historyStack.update(stack => [...stack, page_path]);
     }
 
-    const stack2 = get(historyStack);
     cur_page.set(page_path);
     isBack.set(false);
 }
