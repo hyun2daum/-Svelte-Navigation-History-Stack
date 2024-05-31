@@ -4,7 +4,10 @@
     import * as com from '../com.js';
 
     onMount(async () => {
-        com.initPage('/step3');
+        var obj = {
+            confirmMsg : "뒤로가기시 처음부터 시작합니다."
+        }
+        com.initPage('/step3', obj);
     });
 
     let list = ['당근', '호박', '로또'];

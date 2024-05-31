@@ -4,7 +4,10 @@
     import * as com from '../com.js';
 
     onMount(async () => {
-        com.initPage('/step2', true); // 스킵페이지 설정
+       let obj = {
+        isSkip_page : true
+       }
+        com.initPage('/step2', obj); // 스킵페이지 설정
     });
 
 </script>

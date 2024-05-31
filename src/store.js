@@ -6,3 +6,4 @@ export const cur_page = writable("");
 export const isSkip_page = writable(false);
 export const isFirst_page = writable(true);
 export const HomePath = writable("/home");
+export const ConfirmMsg = writable("");
